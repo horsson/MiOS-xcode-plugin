@@ -1,0 +1,290 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		85EEBCEF18EDF29700F167F0 /* AppKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EEBCEE18EDF29700F167F0 /* AppKit.framework */; };
+		85EEBCF118EDF29700F167F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 85EEBCF018EDF29700F167F0 /* Foundation.framework */; };
+		85EEBCF718EDF29700F167F0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 85EEBCF518EDF29700F167F0 /* InfoPlist.strings */; };
+		85EEBCFA18EDF29700F167F0 /* MPMiOSPlugin.m in Sources */ = {isa = PBXBuildFile; fileRef = 85EEBCF918EDF29700F167F0 /* MPMiOSPlugin.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		85EEBCEB18EDF29700F167F0 /* MiOSPlugin.xcplugin */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MiOSPlugin.xcplugin; sourceTree = BUILT_PRODUCTS_DIR; };
+		85EEBCEE18EDF29700F167F0 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		85EEBCF018EDF29700F167F0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		85EEBCF418EDF29700F167F0 /* MiOSPlugin-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MiOSPlugin-Info.plist"; sourceTree = "<group>"; };
+		85EEBCF618EDF29700F167F0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		85EEBCF818EDF29700F167F0 /* MPMiOSPlugin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MPMiOSPlugin.h; sourceTree = "<group>"; };
+		85EEBCF918EDF29700F167F0 /* MPMiOSPlugin.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MPMiOSPlugin.m; sourceTree = "<group>"; };
+		85EEBCFB18EDF29700F167F0 /* MiOSPlugin-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MiOSPlugin-Prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		85EEBCE818EDF29700F167F0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EEBCEF18EDF29700F167F0 /* AppKit.framework in Frameworks */,
+				85EEBCF118EDF29700F167F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		85EEBCE218EDF29700F167F0 = {
+			isa = PBXGroup;
+			children = (
+				85EEBCF218EDF29700F167F0 /* MiOSPlugin */,
+				85EEBCED18EDF29700F167F0 /* Frameworks */,
+				85EEBCEC18EDF29700F167F0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		85EEBCEC18EDF29700F167F0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				85EEBCEB18EDF29700F167F0 /* MiOSPlugin.xcplugin */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		85EEBCED18EDF29700F167F0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				85EEBCEE18EDF29700F167F0 /* AppKit.framework */,
+				85EEBCF018EDF29700F167F0 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		85EEBCF218EDF29700F167F0 /* MiOSPlugin */ = {
+			isa = PBXGroup;
+			children = (
+				85EEBCF818EDF29700F167F0 /* MPMiOSPlugin.h */,
+				85EEBCF918EDF29700F167F0 /* MPMiOSPlugin.m */,
+				85EEBCF318EDF29700F167F0 /* Supporting Files */,
+			);
+			path = MiOSPlugin;
+			sourceTree = "<group>";
+		};
+		85EEBCF318EDF29700F167F0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				85EEBCF418EDF29700F167F0 /* MiOSPlugin-Info.plist */,
+				85EEBCF518EDF29700F167F0 /* InfoPlist.strings */,
+				85EEBCFB18EDF29700F167F0 /* MiOSPlugin-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		85EEBCEA18EDF29700F167F0 /* MiOSPlugin */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 85EEBCFE18EDF29700F167F0 /* Build configuration list for PBXNativeTarget "MiOSPlugin" */;
+			buildPhases = (
+				85EEBCE718EDF29700F167F0 /* Sources */,
+				85EEBCE818EDF29700F167F0 /* Frameworks */,
+				85EEBCE918EDF29700F167F0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MiOSPlugin;
+			productName = MiOSPlugin;
+			productReference = 85EEBCEB18EDF29700F167F0 /* MiOSPlugin.xcplugin */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		85EEBCE318EDF29700F167F0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MP;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "SAP AG";
+			};
+			buildConfigurationList = 85EEBCE618EDF29700F167F0 /* Build configuration list for PBXProject "MiOSPlugin" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 85EEBCE218EDF29700F167F0;
+			productRefGroup = 85EEBCEC18EDF29700F167F0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				85EEBCEA18EDF29700F167F0 /* MiOSPlugin */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		85EEBCE918EDF29700F167F0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EEBCF718EDF29700F167F0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		85EEBCE718EDF29700F167F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85EEBCFA18EDF29700F167F0 /* MPMiOSPlugin.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		85EEBCF518EDF29700F167F0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				85EEBCF618EDF29700F167F0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		85EEBCFC18EDF29700F167F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		85EEBCFD18EDF29700F167F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		85EEBCFF18EDF29700F167F0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiOSPlugin/MiOSPlugin-Prefix.pch";
+				INFOPLIST_FILE = "MiOSPlugin/MiOSPlugin-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Debug;
+		};
+		85EEBD0018EDF29700F167F0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEPLOYMENT_LOCATION = YES;
+				DSTROOT = "$(HOME)";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "MiOSPlugin/MiOSPlugin-Prefix.pch";
+				INFOPLIST_FILE = "MiOSPlugin/MiOSPlugin-Info.plist";
+				INSTALL_PATH = "/Library/Application Support/Developer/Shared/Xcode/Plug-ins";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xcplugin;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		85EEBCE618EDF29700F167F0 /* Build configuration list for PBXProject "MiOSPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EEBCFC18EDF29700F167F0 /* Debug */,
+				85EEBCFD18EDF29700F167F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		85EEBCFE18EDF29700F167F0 /* Build configuration list for PBXNativeTarget "MiOSPlugin" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				85EEBCFF18EDF29700F167F0 /* Debug */,
+				85EEBD0018EDF29700F167F0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 85EEBCE318EDF29700F167F0 /* Project object */;
+}
